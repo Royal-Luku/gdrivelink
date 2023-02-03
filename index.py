@@ -15,9 +15,9 @@ bot = Bot(TOKEN)
 
 
 def welcome(update, context) -> None:
-    update.message.reply_text(f"Hey,{update.message.from_user.first_name}! 😃,\n\nI Am A Simple Movie Link Search Bot,\n\nFor More Info @RoyalDwip ❤"
-                              f"🥀 Join @WOMBACKUP 🥀")
-    update.message.reply_text("👇 Enter Any Movie or Series Name 👇")
+    update.message.reply_text(f"Hᴇʏ,{update.message.from_user.first_name}! 😃,\n\nɪ Aᴍ ᴀ Sɪᴍᴘʟᴇ Mᴏᴠɪᴇ Sᴇᴀʀᴄʜɪɴɢ Bᴏᴛ ✅,\n\nFᴏʀ Mᴏʀᴇ Iɴғᴏ@RoyalDwip ❤"
+                              f"🥀 Jᴏɪɴ Cʜᴀɴɴᴇʟ @WOMBACKUP 🥀")
+    update.message.reply_text("Sᴛᴀʀᴛ Sᴇᴀʀᴄʜɪɴɢ Mᴏᴠɪᴇs Oʀ Sᴇʀɪᴇs ✅ \n\nJᴜsᴛ Tʏᴘᴇ Nᴀᴍᴇ Oɴʟʏ 😉 \n\nPᴏᴡᴇʀᴇᴅ Bʏ @Royaldwip")
 
 
 def find_movie(update, context):
