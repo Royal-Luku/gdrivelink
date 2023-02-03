@@ -21,7 +21,7 @@ def welcome(update, context) -> None:
 
 
 def find_movie(update, context):
-    search_results = update.message.reply_text("Searching...")
+    search_results = update.message.reply_text("Printing Your Movies Links Wait Some Seconds....")
     query = update.message.text
     movies_list = search_movies(query)
     if movies_list:
